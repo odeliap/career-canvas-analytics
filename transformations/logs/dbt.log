@@ -1,0 +1,30 @@
+[0m16:05:40.166445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fe65190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112a75f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112a753d0>]}
+
+
+============================== 16:05:40.171041 | 80ac333b-ea8f-4ee9-bfd2-d1e4611c121f ==============================
+[0m16:05:40.171041 [info ] [MainThread]: Running with dbt=1.6.0
+[0m16:05:40.171734 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/odeliaputterman/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init career-canvas', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:05:40.172424 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/odeliaputterman/.dbt')}
+[0m16:05:40.172880 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:05:46.330362 [debug] [MainThread]: Starter project path: /Users/odeliaputterman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/dbt/include/starter_project
+[0m16:05:46.338808 [info ] [MainThread]: 
+Your new dbt project "careercanvas" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:05:46.339436 [info ] [MainThread]: Setting up your profile.
+[0m16:05:50.834869 [info ] [MainThread]: Profile careercanvas written to /Users/odeliaputterman/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:05:50.836507 [debug] [MainThread]: Command `dbt init` succeeded at 16:05:50.835607 after 10.69 seconds
+[0m16:05:50.837200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fe65190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112a756a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a23b50>]}
+[0m16:05:50.837788 [debug] [MainThread]: Flushing usage events

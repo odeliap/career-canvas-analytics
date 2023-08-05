@@ -1,0 +1,14 @@
+careercanvas:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: careercanvas
+      pass: careercanvas
+      dbname: careercanvas
+      schema: public
+
+  target: dev
